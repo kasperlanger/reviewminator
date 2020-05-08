@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
-  get 'hello/hello'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root'root#index'
+  resources :material do
+    get :learn
+
+    collection do
+      get :learning
+    end
+  end
 end
