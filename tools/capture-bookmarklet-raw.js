@@ -1,0 +1,1 @@
+javascript:fetch('http://localhost:3000/material/new?url='+encodeURIComponent(window.location)+'&title='+encodeURIComponent(document.title)); void(0)
